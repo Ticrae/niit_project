@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100%;
+}
+
+.begin{
+    background: #fff;
+    width: 100%;
+}
+
+.image img{
+    width: 150px;
+    height: 200px;
+}
+
+.first{
+    margin: 0 30px;
+}
+
+.sec1-container{
+    padding-top: 30px;
+}
+
+.sec1-container a{
+    font-size: 7px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.sec1-container h4{
+    margin-top: 10px;
+    font-size: 8px;
+    font-weight: 900;
+}
+
+.sec1-container h1{
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 65%;
+}
+
+.sec1-container h3{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.sec1-container span{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.sec1-container h6{
+    margin-top: 5px;
+    font-size: 10px;
+    width: 70px;
+}
+
+.sec1-container button{
+    margin-top: 7px;
+    background: #000;
+    color: #fff;
+    font-size: 8px;
+    border: none;
+    padding: 4px;
+    text-align: center;
+    border-radius: 2px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.sec1-container button:hover{
+    background-color: rgb(43, 43, 43);
+}
+
+.sec1-container p{
+    margin-top: 5px;
+    font-size: 6px;
+    font-weight: 800;
+    margin-left: 3px;
+}
+
+#small{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 5px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-left: 6px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.sec2-container{
+    margin-top: 10px;
+    display: block;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.text h5{
+    font-size: 6px;
+    font-weight: 900;
+    width: 30%;
+    line-height: 7px;
+}
+
+.text h6{
+    margin-top: 6px;
+    font-size: 8px;
+    font-weight: 100;
+}
+
+@media(min-width:750px){
+    .sec1-container{
+        padding-top: 100px;
+    }
+
+    .sec1-container a{
+        font-size: 15px;
+    }
+
+    .sec1-container h4{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .sec1-container h3{
+        font-size: 14px;
+    }
+
+    .sec1-container h1{
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+    .sec1-container h6{
+        font-size: 12px;
+        width: 100px;
+        margin-top: 10px;
+    }
+
+    .sec1-container button{
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .sec1-container p{
+        font-size: 10px;
+        padding-left: 70px;
+    }
+
+    #small{
+        font-size: 10px;
+        padding-left: 60px;
+    }
+
+    .text h5{
+        font-size: 10px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .text h6{
+        font-size: 12px;
+    }
+}
+
+@media(min-width:1000px){
+    .sec1-container a{
+        font-size: 18px;
+    }
+
+    .sec1-container h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .sec1-container h3{
+        font-size: 18px;
+    }
+
+    .sec1-container h6{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .sec1-container p{
+        font-size: 12px;
+        padding-left: 180px;
+        padding-top: 20px;
+    }
+
+    #small{
+        font-size: 10px;
+        padding-left: 180px;
+    }
+
+    .text h5{
+        font-size: 12px;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .text h6{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .text{
+        width: 150%;
+    }
+
+    .sec2-container{
+        display: grid;
+        grid-template-columns: 0.5fr 2fr;
+    }
+
+    .image img{
+        width: 700px;
+        height: 400px;
+        margin-left: 200px;
+    }
+}
+
+
+.end{
+    background: rgb(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.second{
+    margin: 0 30px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.second h2{
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.text1{
+    margin-top: 5px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.about h3{
+    font-size: 12px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.about ul li{
+    list-style: none;
+    padding-bottom: 3px;
+}
+
+.about ul li a{
+    color: #fff;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.footer{
+    border-top: 1px solid rgb(128, 128, 128, 0.3);
+}
+
+.footer h5{
+    margin-top: 5px;
+    font-size: 8px;
+    text-align: right;
+}
+
+@media(min-width:750px){
+    .second h2{
+        font-size: 17px;
+    }
+
+    .text1{
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .about h3{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .about ul li a{
+        text-decoration: underline;
+    }
+}
+
+@media(min-width:1000px){
+    .sec3-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .second h2{
+        font-size: 25px;
+        padding-top: 40px;
+    }   
+
+    .text1 h3{
+        font-size: 15px;
+        padding-right: 40px;
+        font-weight: 100;
+        line-height: 25px;
+    }
+
+    .about{
+        padding-left: 30px;
+    }
+
+    .about ul li{
+        padding-top: 8px;
+    }
+
+    .about ul li a{
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .about ul li a:hover{
+        text-decoration: underline;
+    }
+
+    .footer{
+        margin-top: 40px;
+    }
+
+    .footer h5{
+        margin-top: 7px;
+        font-size: 12px;
+        text-align: right;
+        font-weight: 200;
+    }
+}
+

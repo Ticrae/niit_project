@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/reg2.jpg);
+}
+
+.container{
+    width: 400px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+form{
+    width: 90%;
+    margin: 10px auto;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+form > button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 22px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+form > button:hover{
+    color: #000;
+}
